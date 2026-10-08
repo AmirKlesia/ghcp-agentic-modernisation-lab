@@ -1,0 +1,92 @@
+{
+  "status": "success",
+  "artifactValidation": "passed",
+  "completionEvidence": {
+    "artifactValidation": "passed",
+    "runId": "20261008102837",
+    "workspacePath": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella",
+    "artifacts": {
+      "report": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\reports\\report-20261008102837\\report.json",
+      "normalizedAssessment": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\.memory\\runs\\20261008102837\\normalized-assessment.json",
+      "html": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\reports\\20261008102837-assess.html",
+      "appcat": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\.memory\\runs\\20261008102837\\appcat\\report.json",
+      "security": {
+        "cve-known-vulnerabilities": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cve-known-vulnerabilities.json",
+        "cwe-code-quality": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-code-quality.json",
+        "cwe-concurrency-synchronization": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-concurrency-synchronization.json",
+        "cwe-credentials-secrets": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-credentials-secrets.json",
+        "cwe-file-path-security": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-file-path-security.json",
+        "cwe-injection-attacks": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-injection-attacks.json",
+        "cwe-memory-safety": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-memory-safety.json"
+      },
+      "verification": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\reports\\report-20261008102837\\verification.json"
+    },
+    "findingCounts": {
+      "total": 18,
+      "tracked": 18,
+      "bySeverity": {
+        "critical": 0,
+        "high": 7,
+        "medium": 8,
+        "low": 3,
+        "info": 0
+      },
+      "byState": {
+        "new": 18
+      }
+    },
+    "topRecommendation": {
+      "kind": "generic",
+      "summary": "No Dockerfile found",
+      "next_action": "create-modernization-plan",
+      "prefilled_prompt": "Create a modernization plan from the assessment's high-priority findings"
+    },
+    "partialTasks": [],
+    "coverageSource": "default"
+  },
+  "language": "java",
+  "domains": [
+    "java-upgrade",
+    "security"
+  ],
+  "analysisCoverage": "issue-only",
+  "coverageSource": "default",
+  "findingCounts": {
+    "total": 18,
+    "tracked": 18,
+    "bySeverity": {
+      "critical": 0,
+      "high": 7,
+      "medium": 8,
+      "low": 3,
+      "info": 0
+    },
+    "byState": {
+      "new": 18
+    }
+  },
+  "topRecommendation": {
+    "kind": "generic",
+    "summary": "No Dockerfile found",
+    "next_action": "create-modernization-plan",
+    "prefilled_prompt": "Create a modernization plan from the assessment's high-priority findings"
+  },
+  "artifacts": {
+    "report": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\reports\\report-20261008102837\\report.json",
+    "normalizedAssessment": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\.memory\\runs\\20261008102837\\normalized-assessment.json",
+    "html": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\reports\\20261008102837-assess.html",
+    "appcat": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\.memory\\runs\\20261008102837\\appcat\\report.json",
+    "security": {
+      "cve-known-vulnerabilities": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cve-known-vulnerabilities.json",
+      "cwe-code-quality": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-code-quality.json",
+      "cwe-concurrency-synchronization": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-concurrency-synchronization.json",
+      "cwe-credentials-secrets": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-credentials-secrets.json",
+      "cwe-file-path-security": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-file-path-security.json",
+      "cwe-injection-attacks": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-injection-attacks.json",
+      "cwe-memory-safety": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\engines\\security\\incoming\\cwe-memory-safety.json"
+    },
+    "verification": "C:\\Users\\A116576\\copilot-worktrees\\ghcp-agentic-modernisation-lab\\amirklesia-automatic-umbrella\\.github\\modernize\\assessment\\reports\\report-20261008102837\\verification.json"
+  },
+  "failedTasks": [],
+  "planningSupported": true
+}
